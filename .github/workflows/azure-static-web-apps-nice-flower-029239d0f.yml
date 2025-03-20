@@ -41,12 +41,10 @@ jobs:
    
       - name: Install Dependencies
         run: |
-          cd /
           npm install
 
       - name: Build
         run: |
-          cd /
           npm run build
       - name: Build And Deploy
         id: builddeploy
