@@ -34,7 +34,7 @@ module.exports = {
         './TodoList': './src/TodoList.jsx',
       },
       remotes: {
-        components: 'sharedComponents@http://localhost:3005/remoteEntry.js',
+        components: 'sharedComponents@https://purple-mushroom-0b054790f.6.azurestaticapps.net/remoteEntry.js',
       },
       shared: {
         react: { singleton: true, requiredVersion: false },
